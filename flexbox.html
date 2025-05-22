@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <link rel="stylesheet" href="./flexstyle.css">
+    <!-- controlling the arrangement of items -->
+    <style>
+        .container{
+            /* height:400px; */
+            display:flex;
+            /* flex-direction: column; =>printed in column*/
+            /* flex-direction: row; =>printed in row*/
+            /* flex-direction: row-reverse; =>5 4 3 2 1 printed on right side*/
+            /* flex-direction: column-reverse; =>5 4 3 2 1 printed in column wise  */
+            /* justify-content: flex-end; =>moves along x-axis */
+            /* justify-content: flex-start;*/
+            /* justify-content: center; */
+            /* justify-content:space-around; =>spaces are unequal*/
+            /* justify-content: space-between; =>start and end no spaces are given*/
+            justify-content: space-evenly;
+            /* y-axis */
+            /* align-items: center; */
+            /* align-items: end; */
+            /* align-items: start; */
+            /* align-items: stretch; */
+        }
+    </style>
+</head>
+<body>
+    <!-- TODO learn flex box -->
+    <!--main box parent = flex-container -->
+     <div class="container">
+        <!-- toys in box= children = flex-items -->
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+     </div>
+    <!-- javascript code -->
+     <script src="./app.js">
+
+     </script>
+    
+</body>
+</html>

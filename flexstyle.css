@@ -1,0 +1,27 @@
+.container{
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f3f3f3;
+    /* hexadecimal color code */
+    border:5px solid red;
+}
+.box{
+    padding:30px;
+    text-align:center;
+    font-size:35px;
+}
+.box1{
+   background-color: aqua;
+}
+.box2{
+   background-color: palevioletred;
+}
+.box3{
+   background-color: rgb(17, 181, 88);
+}
+.box4{
+   background-color: rgb(215, 186, 24);
+}
+.box5{
+   background-color: rgb(203, 71, 15);
+}
