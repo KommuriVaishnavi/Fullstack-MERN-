@@ -1,4 +1,46 @@
-h4{
-    color:orange;
-    font-family:Times New Roman;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    /*vh=viewheight->total screen height of your broser*/
+}
+/* absolute unit->pixel eg-120px--> does not depend on your device or parent tag */
+/* relative unit-> vh,vw,% these do not depend on your browser or parent tag */
+
+.card{
+    background: white;
+    width: 200px;
+    border-radius: 12px;
+    /* shadow on top is 0px left and right is 4px&bottom is 8px */
+    box-shadow: 0 4px 8px ;
+    /* transition: all; */
+    overflow:hidden;
+}
+img{
+    width:100%
+}
+.info{
+    padding:15px;
+}
+h2{
+    font-size: 20px;
+    margin: 0;
+    color:#333;
+}
+p{
+color:#666;
+font-size: 14px;
+margin-top: 8px;
+}
+/* when user clicks on card the info should expand or become large */
+/* we will make a class that is not in our code */
+.expanded{
+    width: 300px;
+    height: 400px;
+}
+.expanded p{
+    display:block;
 }
